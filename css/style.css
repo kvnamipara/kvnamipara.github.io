@@ -53,17 +53,35 @@ table {
 
 .hoz_line {
 	position: absolute;
-	top:10px;
+	top:0px;
+	left:0px;
 	display: block;
-	width: 100%;
-	height: 10%;
+	height:100px;
 }
+
 
 .hoz_bot_line {
 	position: fixed;
 	right: 0px;
-	bottom: 10px;
+	bottom: 0px;
 	display: block;
+	height: 100px;
+}
+
+.ver_line {
+	position: fixed;
+	top:0px;
+	left:0px;
+	display: inline;
+	height: 250px;
+}
+
+.ver_line1 {
+	position: fixed;
+	bottom:0px;
+	right:0px;
+	display: inline;
+	height: 250px;
 }
 
 .main {
@@ -77,19 +95,19 @@ table {
 	float: center;
 	display: inline-block;
 	padding-left: 200px;
-	height: 50px;
+	height: 100px;
 }
 
 
-.main .p {
+.main .p1 ,.p2 {
 	width: 60%;
 	padding-left: 200px;
-	margin: 60px;
+	margin: 30px;
 	line-height: 1.5;
 	color:#838487;
 }
 
-.p p {
+.main p {
 	margin-top: 30px;
 }
 
@@ -97,27 +115,46 @@ table {
 .line1 {
 	display: inline-block;
 	width: 500px;
-	margin: 20px 0 10px 30px;
+	height:5px;
+	margin: 40px 0 10px 30px;
 }
 
 .line2 {
 	display: block;
 	width: 400px;
-	margin: 10px 0 10px 30px;
+	height: 3px;
+	margin: 0 0 0 40px;
 }
 
 .line3 {
 	display: inline-block;
 	width: 500px;
-	margin: 0 30px 20px 0;
+	height: 5px;
+	margin: 10px 30px 50px 0;
 }
 
 .line4 {
 	display: block;
 	width: 400px;
-	margin: 0 30px 20px 100px;
+	height: 3px;
+	margin: 40px 30px 0 90px;
 }
 
+.line5 {
+	display: block;
+	width: 12px;
+	height: 200px;
+	margin: 20px 0 0 50px;
+}
+
+.line6 {
+	display: block;
+	width: 12px;
+	height: 200px;
+	margin: 30px 50px 0 0;
+}
+
+/* animations below this line*/
 @-webkit-keyframes h_line {
 	from {
 		left: 120%;
@@ -159,6 +196,7 @@ table {
 	animation: h_line 1s;
 }
 
+
 @-webkit-keyframes h_line1 {
 	from {
 		right: 120%;
@@ -198,4 +236,45 @@ table {
 	-moz-animation: h_line1 1s;
 	-o-animation: h_line1 1s;
 	animation: h_line1 1s;
+}
+
+@-webkit-keyframes v_line {
+	from {
+		top: 120%;
+	}
+	to {
+
+	}
+}
+@-moz-keyframes v_line {
+	from {
+		top: 120%;
+	}
+	to {
+
+	}
+}
+@-o-keyframes v_line {
+	from {
+		top: 120%;
+	}
+	to {
+
+	}
+}
+
+@keyframes v_line {
+	from {
+		top:  120%;
+	}
+	to {
+
+	}
+}
+
+.ver_line {
+	-webkit-animation: v_line 1s  linear;
+	-moz-animation: v_line 1s;
+	-o-animation: v_line 1s;
+	animation: v_line 1s;
 }

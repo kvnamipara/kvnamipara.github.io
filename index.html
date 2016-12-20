@@ -7,11 +7,26 @@
         <script src="javascript/typed.js"></script>
         <script>
           $(function(){
-            $(".intro").typed({
-              strings: ["Hi There!!!", "I'm Kevin Amipara."],
-              typeSpeed: 0,
-              showCursor:false,
-            });
+            $(".p1").hide();
+            $(".p2").hide();
+            function text(){
+                $(".intro").typed({
+                strings: ["Hi There!!!", "I'm Kevin Amipara."],
+                typeSpeed: 0,
+                showCursor:false,
+              });
+            };
+
+            function para_fadein1(){
+              $(".p1").fadeIn("slow");
+            };
+            function para_fadein2(){
+              $(".p2").fadeIn("slow");
+            };
+
+            window.setTimeout(text,1000);
+            window.setTimeout(para_fadein1,3000);
+            window.setTimeout(para_fadein2,4000);
           });
         </script>
     </head>
@@ -19,16 +34,20 @@
 
       <div class="container">
         <div class="hoz_line">
-          <hr class="line1" size="8px" color="#0D6E9E">
-          <hr class="line2" size="5px" color="#0D6E9E">
+          <hr class="line1" color="#0D6E9E">
+          <hr class="line2" color="#0D6E9E">
         </div>
-
+        <div class="ver_line">
+          <hr class="line5" color="#BFCCBF">
+        </div>
 
         <div class="main">
           <div class="intro">
           </div>
-          <div class="p">
+          <div class="p1">
             <p> I am currently undergraduating in Computer Engineering  @NIT Surat. I am currently working on Artificial Intelligence and Machine Learning. but I love build and design stuff using web developement. I am proficient in Python, C language and Web Development.</p>
+          </div>
+          <div class="p2">
             <p> I am proud to be a Navodayan (JNV Rajkot) and dakshana scholar (JNV Gachibowli Hyderabad). I love playing keyboard(Piano). I also love reading books and watching movies. I love to keep learning and working.</p>
           </div>
         </div>
@@ -36,6 +55,9 @@
         <div class="hoz_bot_line">
           <hr class="line4" size="5px" color="#0D6E9E">
           <hr class="line3" size="8px" color="#0D6E9E">
+        </div>
+        <div class="ver_line1">
+          <hr class="line6" color="#BFCCBF">
         </div>
         <div class="footer">
 
