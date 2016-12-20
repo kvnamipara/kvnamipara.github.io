@@ -24,9 +24,16 @@
               $(".p2").fadeIn("slow");
             };
 
+            function slide(){
+              $(".nev_container").animate({
+                left:'0%',
+              },
+              2000);
+            };
             window.setTimeout(text,1000);
             window.setTimeout(para_fadein1,3000);
             window.setTimeout(para_fadein2,4000);
+            window.setTimeout(slide,4000)
           });
         </script>
     </head>
@@ -49,6 +56,18 @@
           </div>
           <div class="p2">
             <p> I am proud to be a Navodayan (JNV Rajkot) and dakshana scholar (JNV Gachibowli Hyderabad). I love playing keyboard(Piano). I also love reading books and watching movies. I love to keep learning and working.</p>
+          </div>
+        </div>
+
+        <div class="nev_container">
+          <div class="nevbar">
+            <a href="aboutme.html"><img src="images/profile1.png" class="img1" onmouseover="this.src='images/profile.png'" onmouseout="this.src='images/profile1.png'" alt="home"></a>
+            <hr class="line7" color="#FFFFFF">
+            <a href="https://www.facebook.com/kvnamipara" target="_blank"><img src="images/fb-logo1.png" class="img1" onmouseover="this.src='images/fb-logo.png'" onmouseout="this.src='images/fb-logo1.png'" alt="home"></a>
+            <hr class="line7" color="#FFFFFF">
+            <a href="https://twitter.com/kvnamipara" target="_blank"><img src="images/twitter1.png" class="img1" onmouseover="this.src='images/twitter.png'" onmouseout="this.src='images/twitter1.png'" alt="home"></a>
+            <hr class="line7" color="#FFFFFF">
+            <a href="https://github.com/kvnamipara" target="_blank"><img src="images/github-logo1.png" class="img1" onmouseover="this.src='images/github-logo.png'" onmouseout="this.src='images/github-logo1.png'" alt="home"></a>
           </div>
         </div>
 

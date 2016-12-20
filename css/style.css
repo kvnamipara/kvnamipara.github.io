@@ -102,13 +102,14 @@ table {
 .main .p1 ,.p2 {
 	width: 60%;
 	padding-left: 200px;
-	margin: 30px;
+	margin: 20px;
 	line-height: 1.5;
 	color:#838487;
+	font-size: 1.2em;
 }
 
 .main p {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 
@@ -152,6 +153,39 @@ table {
 	width: 12px;
 	height: 200px;
 	margin: 30px 50px 0 0;
+}
+
+.nev_container {
+	position: fixed;
+	bottom: 100px;
+	left: -120%;
+
+	margin-left: 50px;
+	background-color: #B2C8D6;
+}
+
+.line7 {
+	display: inline-block;
+	width: 1px;
+	height: 30px;
+	margin: 2px;
+}
+
+.img1 {
+	padding:5px;display: inline-block;;
+	width: 30px;
+	height: 30px;
+}
+
+.nevbar {
+	padding: 2px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.nev_container p {
+	color: white;
+	float: right;
 }
 
 /* animations below this line*/
@@ -277,4 +311,45 @@ table {
 	-moz-animation: v_line 1s;
 	-o-animation: v_line 1s;
 	animation: v_line 1s;
+}
+
+@-webkit-keyframes v_line1 {
+	from {
+		bottom: 120%;
+	}
+	to {
+
+	}
+}
+@-moz-keyframes v_line1 {
+	from {
+		bottom: 120%;
+	}
+	to {
+
+	}
+}
+@-o-keyframes v_line1 {
+	from {
+		bottom: 120%;
+	}
+	to {
+
+	}
+}
+
+@keyframes v_line1 {
+	from {
+		bottom: 120%;
+	}
+	to {
+
+	}
+}
+
+.ver_line1 {
+	-webkit-animation: v_line1 1s  linear;
+	-moz-animation: v_line1 1s;
+	-o-animation: v_line1 1s;
+	animation: v_line1 1s;
 }
