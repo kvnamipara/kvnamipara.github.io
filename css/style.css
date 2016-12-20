@@ -118,6 +118,10 @@ table {
 	width: 500px;
 	height:5px;
 	margin: 40px 0 10px 30px;
+	color:#0D6E9E;
+	background-color: #0D6E9E;
+	border-style: none;
+	border-radius: 0;
 }
 
 .line2 {
@@ -125,6 +129,11 @@ table {
 	width: 400px;
 	height: 3px;
 	margin: 0 0 0 40px;
+	color:#0D6E9E;
+	background-color:#0D6E9E;
+	border-style: none;
+	border-radius: 0;
+
 }
 
 .line3 {
@@ -132,6 +141,11 @@ table {
 	width: 500px;
 	height: 5px;
 	margin: 10px 30px 50px 0;
+	color:#0D6E9E;
+	background-color:#0D6E9E;
+	border-style: none;
+	border-radius: 0;
+
 }
 
 .line4 {
@@ -139,6 +153,11 @@ table {
 	width: 400px;
 	height: 3px;
 	margin: 40px 30px 0 90px;
+	color:#0D6E9E;
+	background-color:#0D6E9E;
+	border-style: none;
+	border-radius: 0;
+
 }
 
 .line5 {
@@ -146,6 +165,11 @@ table {
 	width: 12px;
 	height: 200px;
 	margin: 20px 0 0 50px;
+	color: #BFCCBF;
+	background-color:#BFCCBF;
+	border-style: none;
+	border-radius: 0;
+
 }
 
 .line6 {
@@ -153,6 +177,11 @@ table {
 	width: 12px;
 	height: 200px;
 	margin: 30px 50px 0 0;
+	color: #BFCCBF;
+	background-color:#BFCCBF;
+	border-style: none;
+	border-radius: 0;
+
 }
 
 .nev_container {
