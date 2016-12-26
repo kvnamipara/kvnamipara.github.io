@@ -47,7 +47,7 @@ table {
 .container {
   width:100%;
 	height: 100%;
-	background-color: #4ABDAC;
+	background-color: #CDCDCD;
 	display: block;
 }
 
@@ -92,7 +92,7 @@ table {
 
 .intro {
 	font-size: 4em;
-	color: #DFDCE3;
+	color: #0B3C5D;
 	float: center;
 	display: inline-block;
 	padding-left: 200px;
@@ -105,7 +105,7 @@ table {
 	padding-left: 200px;
 	margin: 20px;
 	line-height: 1.5;
-	color:#DFDCE3;
+	color:#626E60;
 	font-size: 1.2em;
 }
 
@@ -119,8 +119,8 @@ table {
 	width: 500px;
 	height:5px;
 	margin: 40px 0 10px 30px;
-	color:#0D6E9E;
-	background-color: #0D6E9E;
+	color:#94618E;
+	background-color: #94618E;
 	border-style: none;
 	border-radius: 0;
 }
@@ -130,8 +130,8 @@ table {
 	width: 400px;
 	height: 3px;
 	margin: 0 0 0 40px;
-	color:#0D6E9E;
-	background-color:#0D6E9E;
+	color:#94618E;
+	background-color:#94618E;
 	border-style: none;
 	border-radius: 0;
 
@@ -166,8 +166,8 @@ table {
 	width: 12px;
 	height: 200px;
 	margin: 20px 0 0 50px;
-	color: #BFCCBF;
-	background-color:#BFCCBF;
+	color: #B56357;
+	background-color:#B56357;
 	border-style: none;
 	border-radius: 0;
 
@@ -178,8 +178,8 @@ table {
 	width: 12px;
 	height: 200px;
 	margin: 30px 50px 0 0;
-	color: #BFCCBF;
-	background-color:#BFCCBF;
+	background-color:#B56357;
+	color: #B56357;
 	border-style: none;
 	border-radius: 0;
 
@@ -190,7 +190,7 @@ table {
 	bottom: 100px;
 	left: -120%;
 	margin-left: 50px;
-	background-color: #F74A1A;
+	background-color: #1D2731;
 }
 
 .line7 {
