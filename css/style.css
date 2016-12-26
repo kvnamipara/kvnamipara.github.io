@@ -47,7 +47,7 @@ table {
 .container {
   width:100%;
 	height: 100%;
-	background-color: #D9E8F0;
+	background-color: #4ABDAC;
 	display: block;
 }
 
@@ -92,7 +92,7 @@ table {
 
 .intro {
 	font-size: 4em;
-	color: #5484A4;
+	color: #DFDCE3;
 	float: center;
 	display: inline-block;
 	padding-left: 200px;
@@ -105,7 +105,7 @@ table {
 	padding-left: 200px;
 	margin: 20px;
 	line-height: 1.5;
-	color:#838487;
+	color:#DFDCE3;
 	font-size: 1.2em;
 }
 
@@ -189,9 +189,8 @@ table {
 	position: fixed;
 	bottom: 100px;
 	left: -120%;
-
 	margin-left: 50px;
-	background-color: #B2C8D6;
+	background-color: #F74A1A;
 }
 
 .line7 {
