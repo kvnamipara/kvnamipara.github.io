@@ -5,6 +5,7 @@
         <link href="css/style.css" rel="stylesheet">
         <script src="javascript/jquery.js"></script>
         <script src="javascript/typed.js"></script>
+
         <script>
           $(function(){
             $(".p1").hide();
@@ -25,17 +26,34 @@
             };
 
             function slide(){
-              $(".nev_container").animate({
-                left:'0%',
+              $(".nevbar1").animate({
+                bottom:'0%',
               },
-              2000);
+              1200);
+              $(".nevbar2").animate({
+                bottom:'0%',
+              },
+              1400);
+              $(".nevbar3").animate({
+                bottom:'0%',
+              },
+              1600);
+              $(".nevbar4").animate({
+                bottom:'0%',
+              },
+              1400);
+              $(".nevbar5").animate({
+                bottom:'0%',
+              },
+              1200);
             };
-            window.setTimeout(text,1000);
-            window.setTimeout(para_fadein1,3000);
-            window.setTimeout(para_fadein2,4000);
-            window.setTimeout(slide,4000)
+            window.setTimeout(text,500);
+            window.setTimeout(para_fadein1,1500);
+            window.setTimeout(para_fadein2,2500);
+            window.setTimeout(slide,3500)
           });
         </script>
+
     </head>
     <body>
 
@@ -60,15 +78,19 @@
         </div>
 
         <div class="nev_container">
-          <div class="nevbar">
+          <div class="nevbar1">
             <a href="aboutme.html"><img src="images/profile1.png" class="img1" onmouseover="this.src='images/profile.png'" onmouseout="this.src='images/profile1.png'" alt="home"></a>
-            <hr class="line7" color="#FFFFFF">
+          </div>
+          <div class="nevbar2">
             <a href="https://www.facebook.com/kvnamipara" target="_blank"><img src="images/fb-logo1.png" class="img1" onmouseover="this.src='images/fb-logo.png'" onmouseout="this.src='images/fb-logo1.png'" alt="home"></a>
-            <hr class="line7" color="#FFFFFF">
+          </div>
+          <div class="nevbar3">
             <a href="https://twitter.com/kvnamipara" target="_blank"><img src="images/twitter1.png" class="img1" onmouseover="this.src='images/twitter.png'" onmouseout="this.src='images/twitter1.png'" alt="home"></a>
-            <hr class="line7" color="#FFFFFF">
+          </div>
+          <div class="nevbar4">
             <a href="https://github.com/kvnamipara" target="_blank"><img src="images/github-logo1.png" class="img1" onmouseover="this.src='images/github-logo.png'" onmouseout="this.src='images/github-logo1.png'" alt="home"></a>
-            <hr class="line7" color="#FFFFFF">
+          </div>
+          <div class="nevbar5">
             <a href="https://in.linkedin.com/in/kevin-amipara-16913934" target="_blank"><img src="images/linkedin1.png" class="img1" onmouseover="this.src='images/linkedin.png'" onmouseout="this.src='images/linkedin1.png'" alt="home"></a>
           </div>
         </div>
