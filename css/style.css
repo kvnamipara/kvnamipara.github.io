@@ -235,7 +235,7 @@ table {
 .nevbar2 {
 	left: 130px;
 	height: 80px;
-	background-color: #66ffee;
+	background-color: #006666;
 	-webkit-transition: height 0.3s linear; /* Safari */
 	transition: height 0.3s linear;
 }
@@ -258,7 +258,7 @@ table {
 .nevbar4 {
 	left: 230px;
 	height: 85px;
-	background-color: #66ffee;
+	background-color: #006666;
 	-webkit-transition: height 0.3s linear; /* Safari */
 	transition: height 0.3s linear;
 }
