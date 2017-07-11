@@ -1,111 +1,13 @@
-<DOCTYPEHTML>
-  <html>
-    <head>
-      <title>kvnamipara.me</title>
-        <link href="css/style.css" rel="stylesheet">
-        <script src="javascript/jquery.js"></script>
-        <script src="javascript/typed.js"></script>
 
-        <script>
-          $(function(){
-            $(".p1").hide();
-            $(".p2").hide();
-            function text(){
-                $(".intro").typed({
-                strings: ["Hi There!!!", "I'm Kevin Amipara."],
-                typeSpeed: 0,
-                showCursor:false,
-              });
-            };
-
-            function para_fadein1(){
-              $(".p1").fadeIn("slow");
-            };
-            function para_fadein2(){
-              $(".p2").fadeIn("slow");
-            };
-
-            function slide(){
-              $(".nevbar1").animate({
-                bottom:'0%',
-              },
-              1200);
-              $(".nevbar2").animate({
-                bottom:'0%',
-              },
-              1400);
-              $(".nevbar3").animate({
-                bottom:'0%',
-              },
-              1600);
-              $(".nevbar4").animate({
-                bottom:'0%',
-              },
-              1400);
-              $(".nevbar5").animate({
-                bottom:'0%',
-              },
-              1200);
-            };
-            window.setTimeout(text,500);
-            window.setTimeout(para_fadein1,1500);
-            window.setTimeout(para_fadein2,2500);
-            window.setTimeout(slide,3500)
-          });
-        </script>
-
-    </head>
-    <body>
-
-      <div class="container">
-        <div class="hoz_line">
-          <hr class="line1" color="#0D6E9E">
-          <hr class="line2" color="#0D6E9E">
-        </div>
-        <div class="ver_line">
-          <hr class="line5" color="#BFCCBF">
-        </div>
-
-        <div class="main">
-          <div class="intro">
-          </div>
-          <div class="p1">
-            <p> I am currently pursuing undergraduation in Computer Engineering  @NIT Surat. I am currently working on Artificial Intelligence and Machine Learning. but I love build and design stuff using web developement. I am proficient in Python, C language and Web Development.</p>
-          </div>
-          <div class="p2">
-            <p> I am proud to be a Navodayan (JNV Rajkot) and dakshana scholar (JNV Gachibowli Hyderabad). I love playing keyboard(Piano). I also love reading books and watching movies. I love to keep learning and working.</p>
-          </div>
-        </div>
-
-        <div class="nev_container">
-          <div class="nevbar1">
-            <a href="file/kevin_resume.pdf" target="_blank"><img src="images/profile1.png" class="img1" onmouseover="this.src='images/profile.png'" onmouseout="this.src='images/profile1.png'" alt="home"></a>
-            <br><br><br><p style="font-size:12px;color:#CDCDCD;">Resume</p>
-          </div>
-          <div class="nevbar2">
-            <a href="https://www.facebook.com/kvnamipara" target="_blank"><img src="images/fb-logo1.png" class="img1" onmouseover="this.src='images/fb-logo.png'" onmouseout="this.src='images/fb-logo1.png'" alt="home"></a>
-          </div>
-          <div class="nevbar3">
-            <a href="https://twitter.com/kvnamipara" target="_blank"><img src="images/twitter1.png" class="img1" onmouseover="this.src='images/twitter.png'" onmouseout="this.src='images/twitter1.png'" alt="home"></a>
-          </div>
-          <div class="nevbar4">
-            <a href="https://github.com/kvnamipara" target="_blank"><img src="images/github-logo1.png" class="img1" onmouseover="this.src='images/github-logo.png'" onmouseout="this.src='images/github-logo1.png'" alt="home"></a>
-          </div>
-          <div class="nevbar5">
-            <a href="https://in.linkedin.com/in/kevin-amipara-16913934" target="_blank"><img src="images/linkedin1.png" class="img1" onmouseover="this.src='images/linkedin.png'" onmouseout="this.src='images/linkedin1.png'" alt="home"></a>
-          </div>
-        </div>
-
-        <div class="hoz_bot_line">
-          <hr class="line4" size="5px" color="#0D6E9E">
-          <hr class="line3" size="8px" color="#0D6E9E">
-        </div>
-        <div class="ver_line1">
-          <hr class="line6" color="#BFCCBF">
-        </div>
-        <div class="footer">
-
-        </div>
-      </div>
-    </body>
-  </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vega tutorial</title>
+</head>
+<body>
+  <h1 id="title">Let's Try Vega</h1>
+  <div id="viz"></div>
+  <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~kvnamipara/0.embed"></iframe>
+</body>
+</html>
